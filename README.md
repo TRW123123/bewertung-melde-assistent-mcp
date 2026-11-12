@@ -12,6 +12,8 @@ Remote-MCP-Server für lokale Betriebe: Lohnt es sich, eine Google-Rezension bei
 
 ## Status
 
+**Öffentliche Preview (kostenlos, Netlify Function, gleicher Code):** `https://bewertung-melde-assistent-mcp.netlify.app/mcp` – am 12.11.2026 per curl geprüft (health, initialize, tools/list, tools/call positiv und negativ). Manueller Deploy, nicht mit GitHub verknüpft.
+
 Version 0.1.0, gebaut und getestet am 12.11.2026, lokal mit `wrangler dev` geprüft. **Noch kein Production-Deploy**; die URL in `server.json` (`https://bewertung-mcp.ki-automatisieren.de/mcp`) ist nur ein Vorschlag.
 
 ## Tools
