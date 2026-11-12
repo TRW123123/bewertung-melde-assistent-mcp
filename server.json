@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "de.ki-automatisieren/bewertung-melde-assistent",
+  "title": "Bewertungs-Melde-Assistent",
+  "description": "Wann sich eine Meldung einer Google-Rezension lohnt (laut Google-Hilfe) plus neutrale Antwortvorlagen.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.ki-automatisieren.de",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bewertung-mcp.ki-automatisieren.de/mcp"
+    }
+  ]
+}
